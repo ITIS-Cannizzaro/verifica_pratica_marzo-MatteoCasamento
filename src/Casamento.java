@@ -22,7 +22,6 @@ public class Casamento
 				break;
 				default:
 					System.out.println("Scelta errata, riprova!");
-
 			}
 		}
 	}
@@ -31,7 +30,7 @@ public class Casamento
 		int [] array = new int [10];
 		for(int i = 0; i < array.length; i++)
 		{
-			array [i] = (int) ((Math.random()*11)-5);
+			array [i] = (int) ((Math.random()*11)-6);
 		}
 		int min = array[0];
 		for(int i = 0; i<array.length; i++)
